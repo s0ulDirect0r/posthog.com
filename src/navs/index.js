@@ -6362,6 +6362,12 @@ export const docsMenu = {
                     url: '/docs/posthog-code/inbox',
                     icon: 'IconInbox',
                     color: 'yellow',
+                    children: [
+                        { name: 'Overview', url: '/docs/posthog-code/inbox' },
+                        { name: 'Connect sources', url: '/docs/posthog-code/inbox-sources' },
+                        { name: 'Triage and priority', url: '/docs/posthog-code/inbox-triage' },
+                        { name: 'Research & implementation', url: '/docs/posthog-code/inbox-research' },
+                    ],
                 },
                 {
                     name: 'Skills',
@@ -6431,6 +6437,12 @@ export const docsMenu = {
                 },
                 {
                     name: 'Resources',
+                },
+                {
+                    name: 'Inbox Troubleshooting',
+                    url: '/docs/posthog-code/inbox-troubleshooting',
+                    icon: 'IconQuestion',
+                    color: 'red',
                 },
                 {
                     name: 'Open source',
